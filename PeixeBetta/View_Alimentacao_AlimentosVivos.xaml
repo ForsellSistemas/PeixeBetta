@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PeixeBetta.View_Alimentacao_AlimentosVivos"
+             BackgroundColor="LightGray"
+             Title="Alimentos Vivos">
+
+    <FlexLayout Style="{StaticResource FlexLayoutInfoPage}">
+
+        <Label Text="ARTÊMIAS" Style="{StaticResource LableInfoTitle}"/>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Descrição:" FontAttributes="Bold"/>
+                    <Span Text=" São pequenos crustáceos com tamanho e coloração variadas."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Frequência:" FontAttributes="Bold"/>
+                    <Span Text=" Oferecer uma vez por semana."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label Text="DAFNIAS" Style="{StaticResource LableInfoTitle}"/>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Descrição:" FontAttributes="Bold"/>
+                    <Span Text=" Um genêro de crustáceos conhecido como pulga de água."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Frequência:" FontAttributes="Bold"/>
+                    <Span Text=" Oferecer uma vez por semana."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label Text="LARVAS DE MOSQUITO" Style="{StaticResource LableInfoTitle}"/>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Descrição:" FontAttributes="Bold"/>
+                    <Span Text=" Geralmente são encontrados liofilizados em embalagens práticas, nas lojas especializadas em produtos para aquarismo."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Frequência:" FontAttributes="Bold"/>
+                    <Span Text=" Oferecer diáriamente."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label Text="ENQUITRÉIA" Style="{StaticResource LableInfoTitle}"/>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Descrição:" FontAttributes="Bold"/>
+                    <Span Text=" Pequenos vermes de cor branca altamente nutritivas, são mais ricas em gorduras sólidas que oleosas."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Frequência:" FontAttributes="Bold"/>
+                    <Span Text=" Oferecer duas ou três vezes por semana."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label Text="LARVAS DE DROSÓFILA" Style="{StaticResource LableInfoTitle}"/>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Descrição:" FontAttributes="Bold"/>
+                    <Span Text=" Inseto conhecido como mosca do vinagre, podem ser recolhidas em locais com frutas maduras e apodrecidas."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Frequência:" FontAttributes="Bold"/>
+                    <Span Text=" Oferecer duas ou três vezes por semana."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        
+    </FlexLayout>
+   
+</ContentPage>

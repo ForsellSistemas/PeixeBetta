@@ -1,0 +1,1 @@
+C:\ForsellGit\PeixeBetta\PeixeBetta.UWP\PeixeBetta.UWP.csproj;x86

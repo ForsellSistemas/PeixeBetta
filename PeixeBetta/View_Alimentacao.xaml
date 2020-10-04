@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PeixeBetta.View_Alimentacao"
+             Title="Alimentação">
+    
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="BackgroundColor" Value="GreenYellow"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.3*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Text="O peixe betta é um animal carnívoro" FontSize="Medium" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"/>
+        <Button Grid.Row="1" Text="Alimentos Vivos" HeightRequest="100" WidthRequest="200" Clicked="Button_Clicked" />
+        <Button Grid.Row="2" Text="Ração" HeightRequest="100" WidthRequest="200" Clicked="Button_Clicked_1" />
+        <Button Grid.Row="3" Text="Jejum" HeightRequest="100" WidthRequest="200" Clicked="Button_Clicked_2" />
+    </Grid>
+    
+</ContentPage>

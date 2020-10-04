@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PeixeBetta.View_Alimentacao_Jejum"
+             Title="Jejum">
+
+
+
+    <FlexLayout Style="{StaticResource FlexLayoutInfoPage}">
+        <Label Style="{StaticResource LableInfoTitle}">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="CONSIDERAÇÕES"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Deve-se realizar jejum uma vez por semana no peixe para evitar que ele fique com constipações"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </FlexLayout>
+</ContentPage>

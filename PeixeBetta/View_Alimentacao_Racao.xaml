@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PeixeBetta.View_Alimentacao_Racao"
+             Title="Ração">
+    
+    <FlexLayout Style="{StaticResource FlexLayoutInfoPage}">
+        <Label Text="CONSIDERAÇÕES" Style="{StaticResource LableInfoTitle}"/>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Descrição:" FontAttributes="Bold"/>
+                    <Span Text=" Evitar rações com amido de milho em excesso e escolher ração com 38% de proteína ou mais."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="    Frequência:" FontAttributes="Bold"/>
+                    <Span Text=" Oferecer 4 a 5 bolinhas ou foquinhos de ração por dia."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label Text="RAÇÕES MAIS RECOMENDADAS" Style="{StaticResource LableInfoTitle}"/>
+
+        <Label Text="Tropical: Soft Line America Sixe S" FontAttributes="Bold" />
+        <Label Text="   Proteína Bruta 41%"/>
+
+        <Label Text="New Life Spectrum Small Fish" FontAttributes="Bold" />
+        <Label Text="   Proteína Bruta 48%"/>
+
+        <Label Text="Tropical Supervit Mini Granulat" FontAttributes="Bold" />
+        <Label Text="   Proteína Bruta 48%"/>
+
+        <Label Text="Tropical Betta Granulat" FontAttributes="Bold" />
+        <Label Text="   Proteína Bruta 43%"/>
+
+        <Label Text="JBL NovoBetta Flocos" FontAttributes="Bold" />
+        <Label Text="   Proteína Bruta 47%"/>
+
+        <Label Text="Tropical Discus Gran D-50" FontAttributes="Bold" />
+        <Label Text="   Proteína Bruta 50%"/>
+       
+    </FlexLayout>
+</ContentPage>
